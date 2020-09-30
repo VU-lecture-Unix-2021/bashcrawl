@@ -13,14 +13,14 @@ $ git clone https://github.com/VU-lecture-Unix-2020/bashcrawl.git
 ```
 Jums greičiausiai reikės įvesti savo `github.com` vartotojo vardą ir slaptažodį. Jei kyla sunkumų įsirašant mokomąjį paketą, informuokite dėstytoją.
 
-4. Pereikite į naujai sukurtą katalogą, aktyvuokite mokomąją šaką ir pasidarykite jos kopiją:
+4. Pereikite į naujai atsiradusį katalogą (pirmoji vėliau nurodyta komanda), aktyvuokite mokomąją šaką (antroji komanda) ir pasidarykite jos kopiją (trečioji komanda):
 ```bash
 $ cd bashcrawl
 $ git checkout bandymas
 $ git checkout -b mano-bandymas
 ```
 
-5. Pasitikrinkite, padarėte gerai: įvedę komandą `pwd` bei įvedę komandą `git status` turėtumėte matyti panašią informaciją:
+5. Pasitikrinkite, padarėte gerai: įvedę komandas `pwd` bei `git status` turėtumėte matyti panašią informaciją:
 ```bash
 $ pwd
 /home/uspecas/bashcrawl
