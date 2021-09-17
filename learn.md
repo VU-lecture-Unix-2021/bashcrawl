@@ -11,7 +11,7 @@ $ echo $SHELL
 $ cd
 $ git clone https://gitlab.com/slackermedia/bashcrawl.git bashcrawl
 ```
-Atkreipkite dėmesį, kad šis `learn.md` failas priklauso kitai, senai talpyklai.
+Atkreipkite dėmesį, kad šis `learn.md` failas priklauso kitai, senai talpyklai, sukurtai pasiskolinant originalo failus iš gitlab'o.
 
 4. Pereikite į naujai atsiradusį katalogą:
 ```bash
