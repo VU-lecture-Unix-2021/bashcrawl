@@ -9,15 +9,13 @@ $ echo $SHELL
 3. Pereikite į pagrindinį savo katalogą ir įsirašykite mokomąjį paketą
 ```bash
 $ cd
-$ git clone https://github.com/VU-lecture-Unix-2020/bashcrawl.git
+$ git clone https://gitlab.com/slackermedia/bashcrawl.git bashcrawl
 ```
-Jums greičiausiai reikės įvesti savo `github.com` vartotojo vardą ir slaptažodį. Jei kyla sunkumų įsirašant mokomąjį paketą, informuokite dėstytoją.
+Atkreipkite dėmesį, kad šis `learn.md` failas priklauso kitai, senai talpyklai.
 
-4. Pereikite į naujai atsiradusį katalogą (pirmoji vėliau nurodyta komanda), aktyvuokite mokomąją šaką (antroji komanda) ir pasidarykite jos kopiją (trečioji komanda):
+4. Pereikite į naujai atsiradusį katalogą:
 ```bash
 $ cd bashcrawl
-$ git checkout bandymas
-$ git checkout -b mano-bandymas
 ```
 
 5. Pasitikrinkite, padarėte gerai: įvedę komandas `pwd` bei `git status` turėtumėte matyti panašią informaciją:
@@ -25,8 +23,9 @@ $ git checkout -b mano-bandymas
 $ pwd
 /home/uspecas/bashcrawl
 $ git status
-# On branch mano-bandymas
-nothing to commit, working directory clean
+# On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
 ```
 Jei paskutinis `pwd` programos atsakymas nėra `bashcrawl` arba matote tokią informaciją:
 ```bash
@@ -39,10 +38,11 @@ pasitikrinkite, ar gerai įvedėte komandas.
 
 Programa parašyta laikantis "Dungeons & Dragons" kompiuterinių žaidimų principu. Šių žaidimų tikslas būdavo tiesiog tyrinėti požeminį labirintą, skaitant užrašus, tyrinėjant randamus daiktus, renkant turtus ir susigrumiant su baidyklėmis.
 
-Pirmasis žingsnis - žengti į požemį ir perskaityti pirmąjį raštelį:
+
+Kaip galėtumėte perskaityti `README.md` faile (ir turėtumėte jį perskaityti), pirmasis žingsnis - žengti į požemį ir perskaityti pirmąjį raštelį:
 ```bash
 $ cd entrance    # žengiame į požemį
 $ ls             # patikriname, kas jame yra
 $ cat scroll
 ```
-O tada - vaikščiokite po požemio kambarius, kol pasieksite...
+O tada - vaikščiokite po požemio kambarius, įsidėmėdami savo naudojamas ir patarimuose pateikiamas komandas. Ankstesnėje šio žaidimo versijoje buvo ir "paslėptų" katalogų.
